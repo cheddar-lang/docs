@@ -7,6 +7,8 @@ The most fundamental of any language are its literals. Cheddar provides the 4 mo
  - Booleans
  - Arrays
 
+Additionally Cheddar has **functions**, **interfaces**, and more primitives. Classes will be covered in their very own section
+
 ## Strings
  Strings in Cheddar are like most programming languages:
  
