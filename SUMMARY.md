@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Basic Syntax](syntax.md)
+* [Syntax](syntax.md)
    * [Literals](literals.md)
        * [Comment](commentl.md)
        * [String](strl.md)
