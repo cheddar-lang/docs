@@ -32,4 +32,17 @@ The most basic form of a number in Cheddar are integers and decimals. Cheddar wr
  
  ## Bases
  
- You can type **binary**, **octal**, and **hexadecimal** literals in Cheddar. When using a base.
+ You can type **binary**, **octal**, and **hexadecimal** literals in Cheddar:
+ 
+ ```javascript
+ 0b1010
+ 0xFF
+ 0o0222
+ ```
+ 
+ What's the zero at the beginning? That specified the amount of **zeros to append** to the integer section of the number. For example:
+ 
+ ```java
+ 2b1 // equal to 0b100
+ 1xF // equal to 0xF0
+ ```
