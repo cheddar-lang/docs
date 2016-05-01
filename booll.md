@@ -3,4 +3,13 @@
  
  ---
  
- Syntax for booleans is eithner
+ Syntax for booleans is either `true` or `false`.
+ 
+ ```java
+ true
+ false
+ ```
+ 
+> #### type::title
+>
+> cotent
