@@ -8,4 +8,5 @@
        * [Number](numl.md)
        * [Array](arl.md)
        * [Boolean](booll.md)
+       * Fuctions
 
