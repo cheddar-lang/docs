@@ -3,4 +3,10 @@
  
  ---
  
+ Arrays are delimited with square brackets (`[` and `]`). Elements are expressions and are separated by commas.
  
+ ```c
+ [1, 2, 3, 4]
+ [1,, 3] // [1, nil, 3]
+ [1, "2", "3", 4, "5", 6]
+ ```
