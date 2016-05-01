@@ -10,6 +10,6 @@
  false
  ```
  
-> #### type::title
+> #### Note::title
 >
 > cotent
