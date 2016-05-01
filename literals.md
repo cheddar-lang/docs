@@ -16,3 +16,13 @@ The most fundamental of any language are its literals. Cheddar provides the 4 mo
  "2 + 2 = #{2+2}"
  '10 + 10 = #{10+10}'
  ```
+ 
+ ## Numbers
+ Numbers have numerous features in Cheddar to make them readable and clear:
+ 
+ ```swift
+123
+123.456
+123_456
+0b123
+ ```
