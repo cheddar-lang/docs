@@ -1,10 +1,10 @@
 # Summary
 
 * [Introduction](README.md)
-* [Control Flow](control_flow.md)
-   * Conditional 
 * [Syntax](syntax.md)
    * Control Flow
+   * [Control Flow](control_flow.md)
+       * Conditional
    * [Literals](literals.md)
        * [Comment](commentl.md)
        * [String](strl.md)
