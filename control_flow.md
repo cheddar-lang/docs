@@ -4,4 +4,4 @@ In order to perform any sort of logic, control flow statements must exist to  fo
 
 ---
 
-#### Note::Practice
+#### Note::Best Practice
