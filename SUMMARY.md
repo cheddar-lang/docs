@@ -9,5 +9,5 @@
        * [Array](arl.md)
        * [Boolean](booll.md)
        * [Function](funcl.md)
-   * Control Flow
+   * [Control Flow](control_flow/conditional.md)
 
