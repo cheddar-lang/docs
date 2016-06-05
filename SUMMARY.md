@@ -1,8 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* Conditinal
 * [Control Flow](control_flow.md)
+* Conditinal
 * [Syntax](syntax.md)
    * Control Flow
    * [Literals](literals.md)
