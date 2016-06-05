@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* Control Flow
+* [Control Flow](control_flow.md)
 * [Syntax](syntax.md)
    * Control Flow
    * [Literals](literals.md)
