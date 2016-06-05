@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Syntax](syntax.md)
    * [Control Flow](control_flow.md)
-       * Conditional
+       * [Conditional](conditional.md)
    * [Literals](literals.md)
        * [Comment](commentl.md)
        * [String](strl.md)
