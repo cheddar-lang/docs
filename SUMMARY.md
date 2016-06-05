@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Control Flow](control_flow.md)
-   * Conditinal
+* Conditinal
 * [Syntax](syntax.md)
    * Control Flow
    * [Literals](literals.md)
