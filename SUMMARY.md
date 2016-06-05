@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * Conditional
 * [Syntax](syntax.md)
    * [Literals](literals.md)
        * [Comment](commentl.md)
@@ -10,5 +9,6 @@
        * [Array](arl.md)
        * [Boolean](booll.md)
        * [Function](funcl.md)
+   * Conditional
    * Control Flow
 
