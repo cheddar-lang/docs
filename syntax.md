@@ -1,4 +1,4 @@
-# Basic Syntax
+# Syntax Inspiration
 
 Cheddar introduces a blend of syntax styles from existing languages. Inspiration is derives from C, Go, and Swift.
 
