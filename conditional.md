@@ -32,7 +32,7 @@ if 1 == 1 {
 
 Additionally, an arbitrary amount of `else if` blocks can be supplied:
 
-```swift
+```go
 var num := Math.rand(3);
 
 if num == 1 {
@@ -48,4 +48,4 @@ if num == 1 {
 
 ### Scoping
 
-Ifs, like all other code-blocks in Cheddar are **block scoped**. The condition of the if is evaluated in the parent's context, meaning the new scope will only be created, once the condition has been validated and the code-block is ready to execute. 
+Ifs, like all other code-blocks in Cheddar are **block scoped**. The condition of the if is evaluated in the parent's context, meaning the new scope will only be created, once the condition has been validated and the code-block is ready to execute.
