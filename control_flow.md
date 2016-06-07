@@ -16,7 +16,7 @@ In order to perform any sort of logic, control flow statements must exist to  fo
 > ```
 > While the following isn't:
 > 
-> ```swift
+> ```go
 > if len input = argv[0].split(",", true).map(-> (i) i - 1) > 3 {
 >     print "Too many arguments"
 > }
