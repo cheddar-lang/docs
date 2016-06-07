@@ -9,3 +9,53 @@ var my_variable : Number = 123
 const my_constant := 123
 const my_constant : Number = 123
 ```
+
+## Strong v Weak
+
+Many, now considered, "low-level" programming languages such as C are **"strongly" typed**. This means, you cannot change the type of a variable once it has been declared. This type is passed with the variable's deceleration. For example the following is invalid:
+
+```c
+int foo = 123; // Declares `foo` as an integer;
+foo = "bar";   // Error: cannot make an int a string
+```
+
+Some other languages such as JavaScript and Python, are **"weakly" typed**, this means you can change the type of a variable after it has been declared:
+
+```js
+var foo = 123;
+foo = "bar";   // just fine
+```
+
+---
+
+**Cheddar uses both**. Different programmers have different preferences on which typing is the best. Strong typing can be used as beneficial to avoid hard to debug bugs when typed automatically change. Weak typing can be helpful when quickly scripting. Cheddar suits both:
+
+```swift
+// == Weak Typing ==
+var weak_var := 123
+weak_var = "bar"    // no error
+
+// == Strong Typing ==
+var strong_var : Number = 123
+strong_bar = "bar"  // error
+```
+
+If you're confused just think of it this way:
+
+```
+var <name> :        = <value>
+var <name> : <type> = <value>
+```
+
+When no type is provided, the variable is assumed to be weak. Do note that `:=` is required. `: =` or any other whitespace between the `:` and `=` in a weak definition is invalid.
+
+## Constants
+
+Often times you want a variable that doesn't change, to be a "constant". Cheddar supports this, simply instead of the `var` keyword, use `const`:
+
+```js
+const my_constant := 123
+my_constant = "foo";     // Error
+```
+
+Constants can also be strongly & weakly typed, except that the only time the type checking will ever happen is at the decleration. 
