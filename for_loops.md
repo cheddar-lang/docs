@@ -1,6 +1,6 @@
 ## For
 
-`for` loops are the most concise loop construct. On the `for`, **parenthesis are required**, this is described in the [Control Flow](/control_flow.md) section. There syntax is highly resemblant of their C counterpart:
+`for` loops are the most concise loop construct. For `for` loops, **parenthesis are required**, this is described in the [Control Flow](/control_flow.md) section. There syntax is highly resemblant of their C counterpart:
 
 ```go
 for (var i := 0; i < 5; i++) {
