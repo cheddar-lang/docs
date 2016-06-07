@@ -9,10 +9,10 @@
    * [Array](arl.md)
    * [Boolean](booll.md)
    * [Function](funcl.md)
+* Variables
 * [Control Flow](control_flow.md)
    * [Conditional](conditional.md)
    * [Loops](loops.md)
        * [For Loops](for_loops.md)
        * [While Loops](while_loops.md)
-* Variables
 
