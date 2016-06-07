@@ -14,4 +14,5 @@
    * [Loops](loops.md)
        * [For Loops](for_loops.md)
        * [While Loops](while_loops.md)
+* Variables
 
