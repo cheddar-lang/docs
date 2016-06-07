@@ -9,7 +9,7 @@
    * [Array](arl.md)
    * [Boolean](booll.md)
    * [Function](funcl.md)
-* Variables
+* [Variables](variables.md)
 * [Control Flow](control_flow.md)
    * [Conditional](conditional.md)
    * [Loops](loops.md)
