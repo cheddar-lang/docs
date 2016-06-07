@@ -14,7 +14,7 @@ As long as the condition is true, the code block will execute. Once, or if, the 
 
 An example of the use is:
 ```swift
-var input := nil;
+var input
 while !( (input = IO.prompt("[Y/n]> ")) in "Yn" ) {
     print "Please enter either 'Y' or 'N'"
 }
