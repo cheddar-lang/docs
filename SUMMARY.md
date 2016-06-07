@@ -13,4 +13,5 @@
    * [Conditional](conditional.md)
    * [Loops](loops.md)
        * [For Loops](for_loops.md)
+       * While Loops
 
