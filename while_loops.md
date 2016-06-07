@@ -18,5 +18,16 @@ var input
 while !( (input = IO.prompt("[Y/n]> ")) in "Yn" ) {
     print "Please enter either 'Y' or 'N'"
 }
-print "You inputted #{input}"
+print "You inputted '#{input}'"
+```
+
+When run, an example execution is:
+
+```
+[Y/n]> No
+Please enter either 'Y' or 'N'
+[Y/n]> Yes
+Please enter either 'Y' or 'N'
+[Y/n]> Y
+You inputted 'Y'
 ```
