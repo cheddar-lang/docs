@@ -12,12 +12,10 @@ while <condition> {
 
 As long as the condition is true, the code block will execute. Once, or if, the condition is false, the loop will stop executing and the program will continue.
 
----
-
 An example of the use is:
 ```swift
 var input := nil;
-while !( (input = IO.prompt()) in "Yn" ) {
+while !( (input = IO.prompt("[Y/n]> ")) in "Yn" ) {
     print "Please enter either 'Y' or 'N'"
 }
 print "You inputted #{input}"
