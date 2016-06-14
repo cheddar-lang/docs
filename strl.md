@@ -25,16 +25,16 @@ Whichever quote you use is your choice and varies based on your personal prefere
 ```
 
 ## Using formatting
- "String formatting" is a way to insert the **result of an expression** directly into a string. Using `\{ ... }` you can "format" a string.
+ "String formatting" is a way to insert the **result of an expression** directly into a string. Using `#{ ... }` you can "format" a string.
  
  ```ruby
- "2+2=\{2+2}" # evaluates 2+2 and returns 4
+ "2+2=#{2+2}" # evaluates 2+2 and returns 4
  "2+2=4"      # Has the same value as the above
  ```
  
  Backslashes also work to escape formatting:
  
  ```ruby
-"2+2=\\{2+2}" # Does NOT evaluate 2+2 or the format
+"2+2=\#{2+2}" # Does NOT evaluate 2+2 or the format
  ```
- This evaluates to: `2+2=\{2+2}`
+ This evaluates to: `2+2=#{2+2}`
