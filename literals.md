@@ -15,8 +15,8 @@ Additionally Cheddar has **functions**, **interfaces**, and more primitives. Cla
  ```ruby
  "Hello, World!"
  'Hello, World!'
- "2 + 2 = \{2+2}"
- '10 + 10 = \{10+10}'
+ "2 + 2 = #{2+2}"
+ '10 + 10 = #{10+10}'
  ```
  
  ## Numbers
