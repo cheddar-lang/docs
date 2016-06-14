@@ -10,7 +10,3 @@
  false
  ```
  
- ---
- 
-> #### Info::Alternative for False
-> If you don't like using `false`, you may use the `alex` variable which is preinitialized to `false`.
