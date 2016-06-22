@@ -16,4 +16,5 @@
        * [For Loops](for_loops.md)
        * [While Loops](while_loops.md)
 * [Scopes & Classes](scopes_&_classes.md)
+   * Scoping
 
