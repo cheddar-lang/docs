@@ -47,7 +47,7 @@ strong_bar = "bar"  // error
 Often times you want a variable that doesn't change, to be a "constant". Cheddar supports this, simply instead of the `var` keyword, use `const`:
 
 ```js
-const my_constant := 123
+const my_constant = 123
 my_constant = "foo";     // Error
 ```
 
