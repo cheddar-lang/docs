@@ -51,4 +51,4 @@ const my_constant = 123
 my_constant = "foo";     // Error
 ```
 
-Constants can also be strongly & weakly typed, except that the only time the type checking will ever happen is at the decleration. 
+Constants can also be strongly & weakly typed, except that the only time the type checking will ever happen is at the deceleration. 
