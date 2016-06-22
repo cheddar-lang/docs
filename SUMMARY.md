@@ -15,5 +15,5 @@
    * [Loops](loops.md)
        * [For Loops](for_loops.md)
        * [While Loops](while_loops.md)
-* Scopes & Classes
+* [Scopes & Classes](scopes_&_classes.md)
 
