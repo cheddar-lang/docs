@@ -5,7 +5,7 @@ Cheddar introduces a blend of syntax styles from existing languages. Inspiration
 An individual "line" or section of code is called a **"statement"**. For example in the following:
 
 ```js
-var myvar := IO.prompt()
+var myvar = IO.prompt()
 myvar = []; myvar.push(12)
 myvar ::= String
 print myvar
@@ -14,7 +14,7 @@ print myvar
 In this program, each is an individual statement:
 
 ```
-var myvar := IO.prompt()
+var myvar = IO.prompt()
 myvar = []
 myvar.push(12)
 myvar ::= String
