@@ -3,11 +3,11 @@
 A variable is a named representation of some section of memory. Variables are used to store values, one of the most fundamental part of any program. Some examples of declaring variables are:
 
 ```js
-var my_variable := 123
-var my_variable : Number = 123
+var my_variable = 123
+var my_variable: Number = 123
 
-const my_constant := 123
-const my_constant : Number = 123
+const my_constant = 123
+const my_constant: Number = 123
 ```
 
 ## Strong v Weak
@@ -32,7 +32,7 @@ foo = "bar";   // just fine
 
 ```swift
 // == Weak Typing ==
-var weak_var := 123
+var weak_var = 123
 weak_var = "bar"    // no error
 
 // == Strong Typing ==
@@ -40,14 +40,7 @@ var strong_var : Number = 123
 strong_bar = "bar"  // error
 ```
 
-If you're confused just think of it this way:
-
-```
-var <name> :        = <value>
-var <name> : <type> = <value>
-```
-
-When no type is provided, the variable is assumed to be weak. Do note that `:=` is required. `: =` or any other whitespace between the `:` and `=` in a weak definition is invalid.
+**Note:** If you're using a Cheddar version < 0.3 (`cheddar -V`) implicit variables use the legacy `var a := b` syntax.
 
 ## Constants
 
