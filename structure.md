@@ -21,3 +21,4 @@ stdlib/
           |- static.es6   The static properties
 ```
 
+`<name>` would be replaced with the name of that specific item.
