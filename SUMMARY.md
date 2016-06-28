@@ -18,5 +18,5 @@
 * [Scopes & Classes](scopes_&_classes.md)
    * [Scoping](scoping.md)
 * [API](api.md)
-   * Structure
+   * [Structure](structure.md)
 
