@@ -20,5 +20,5 @@
 * [API](api.md)
    * [Structure](structure.md)
    * [Primitive Objects](storage.md)
-       * Scope
+       * [Scope](scope.md)
 
