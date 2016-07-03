@@ -19,5 +19,5 @@
    * [Scoping](scoping.md)
 * [API](api.md)
    * [Structure](structure.md)
-   * [storage](storage.md)
+   * [Scoping](storage.md)
 
