@@ -23,4 +23,5 @@
        * [Scope](scope.md)
        * [Class](class.md)
        * [Variable](variable.md)
+       * Namespace
 
