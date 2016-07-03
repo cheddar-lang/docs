@@ -1,5 +1,13 @@
 # Structure
 
+The Cheddar source code is located in the `src/` directory. 
+
+### Tokenizer
+
+The tokenizer has no specific folder structure. Terminal parsers, are generally kept in the `literals/` directory, expression non-terminals in the `parsers/`, and statements in the `states/` directory.
+
+### Standard Library
+
 The file structure of STDLIB (the standard library) is simple. It's located in the `src/stdlib/` directory. In this root directory, you'll see two files: `api.es6` and `stdlib.es6`. Each of these have their own uses:
 
  - `stdlib.es6`: This constructs the global scope (i.e. the standard library). 
