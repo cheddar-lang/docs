@@ -6,7 +6,7 @@ The boolean class for Cheddar
  - the value
 
 #### Usage:
-`"foo"`, with api:
+`true`, with api:
 ```js
 cheddar.init(
     cheddar.string,
