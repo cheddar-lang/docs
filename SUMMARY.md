@@ -27,4 +27,5 @@
    * [Getting Started](gs.md)
    * [API](stdlibapi.md)
        * [Primitives](primitives.md)
+           * string
 
