@@ -28,4 +28,5 @@
    * [API](stdlibapi.md)
        * [Primitives](primitives.md)
            * [string](string.md)
+           * number
 
