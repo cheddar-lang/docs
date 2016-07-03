@@ -1,9 +1,9 @@
 # bool
 
-The string class for Cheddar
+The boolean class for Cheddar
 
 #### Arguments:
- - A string
+ - the value
 
 #### Usage:
 `"foo"`, with api:
