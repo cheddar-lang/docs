@@ -31,5 +31,5 @@
            * [number](number.md)
            * [array](array.md)
            * [bool](bool.md)
-           * func
+           * [func](func.md)
 
