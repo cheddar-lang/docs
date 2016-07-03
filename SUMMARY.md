@@ -22,5 +22,5 @@
    * [Primitive Objects](storage.md)
        * [Scope](scope.md)
        * [Class](class.md)
-       * Variable
+       * [Variable](variable.md)
 
