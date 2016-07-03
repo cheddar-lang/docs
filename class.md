@@ -14,7 +14,7 @@ scope    init()  instance
 So what else? A class has an initializer, this is the main part seperating a class from a scope. Here are the steps taken during a class initalization:
 
  1. **Create** an empty scope (this is called the "instance")
- 2. **Copy** the class's scope to the instance (and the inheriting class's is applicable).
+ 2. **Copy** the class's scope to the instance (and the inheriting class's if applicable).
  3. **Run** the initializer (`init`) and pass the instance as "self".
  4. **Return** the instance.
 
