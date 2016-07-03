@@ -18,7 +18,6 @@ The function class for Cheddar
    - **`Optional` (default: false)** if true, the argument is optional and will _not_ throw an error if not provided.
  - a function, the implementation  
    this is a function called, which returns the output.
-   
    - **first argument** passed is the **function's scope** as a CheddarScope
    - **second argument** is a function which returns a variable's value, given a variable name.
 
