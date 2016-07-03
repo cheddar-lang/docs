@@ -16,7 +16,11 @@ The function class for Cheddar
    - **`Default`(default: false)** if non-falsy and the associated argument was not passed, the argument will be set to this
    - **`Splat` (default: false)** if true, this, and the following arguments will be combined and returned as a Cheddar array
    - **`Optional` (default: false)** if true, the argument is optional and will _not_ throw an error if not provided.
- - a function, the implementation
+ - a function, the implementation  
+   this is a function called, which returns the output.
+   
+   - **first argument** passed is the **function's scope** as a CheddarScope
+   - **second argument** is a function which returns a variable's value, given a variable name.
 
 #### Usage:
 `-> (a, b = 0) a + b`, with api:
