@@ -36,3 +36,15 @@ export default function(cheddar) {
      ]);
 }
 ```
+
+#### Creating a Class
+To create a class. You can use the following format:
+
+```js
+export default function(cheddar) {
+     return class <name> extends cheddar.class {
+     }
+}
+```
+
+More information on classes will be available once more documentation is written.
