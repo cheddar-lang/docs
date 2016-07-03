@@ -76,7 +76,7 @@ As you can see, the returned _instance_, is **just a regular scope**, but pre-po
 
 ```js
 class MyClass() {
-  whatIsSelf -> self
+  whatIsSelf => self
 }
 
 var A = MyClass{};
