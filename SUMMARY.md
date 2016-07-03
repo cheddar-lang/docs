@@ -24,4 +24,5 @@
        * [Class](class.md)
        * [Variable](variable.md)
        * [Namespace](namespace.md)
+   * Using the API
 
