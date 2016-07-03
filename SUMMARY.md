@@ -24,6 +24,6 @@
        * [Class](class.md)
        * [Variable](variable.md)
        * [Namespace](namespace.md)
-   * [Getting Started](using_the_api.md)
+   * [Getting Started](gs.md)
    * [API](stdlibapi.md)
 
