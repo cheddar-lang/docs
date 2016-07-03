@@ -19,4 +19,7 @@ The function class for Cheddar
  - a function, the implementation
 
 #### Usage:
-`-> (a, b = 0) a + b`, 
+`-> (a, b = 0) a + b`, with api:
+```js
+
+```
