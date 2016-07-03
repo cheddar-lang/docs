@@ -21,5 +21,22 @@ The function class for Cheddar
 #### Usage:
 `-> (a, b = 0) a + b`, with api:
 ```js
-
+new cheddar.func(
+  [
+    ["a", {}],
+    ["b", {
+        Default: cheddar.init(
+          cheddar.number,
+          10, 0, 0
+        )
+    }]
+  ],
+  function(scope, input) {
+    return cheddar.init(
+      cheddar.number,
+      10, 0,
+      input("a").value + input("b").value
+    );
+  }
+)
 ```
