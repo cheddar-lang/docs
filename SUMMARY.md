@@ -19,5 +19,5 @@
    * [Scoping](scoping.md)
 * [API](api.md)
    * [Structure](structure.md)
-   * [Scoping](storage.md)
+   * [Primitive Objects](storage.md)
 
