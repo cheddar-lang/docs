@@ -29,5 +29,5 @@
        * [Primitives](primitives.md)
            * [string](string.md)
            * [number](number.md)
-           * array
+           * [array](array.md)
 
