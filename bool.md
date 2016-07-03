@@ -3,13 +3,21 @@
 The boolean class for Cheddar
 
 #### Arguments:
- - the value
+ - the value, can be a cheddar class. (will be cast to boolean if applicable)
 
 #### Usage:
 `true`, with api:
 ```js
 cheddar.init(
     cheddar.bool,
-    "foo"
+    true
+)
+```
+---
+`false`, with api:
+```js
+cheddar.init(
+    cheddar.bool,
+    false
 )
 ```
