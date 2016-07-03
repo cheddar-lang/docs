@@ -30,4 +30,5 @@
            * [string](string.md)
            * [number](number.md)
            * [array](array.md)
+           * bool
 
