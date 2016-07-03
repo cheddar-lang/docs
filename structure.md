@@ -10,6 +10,9 @@ Here's a diagram of the further folder structure
 ```
 stdlib/
  |
+ |-- stdlib.es6      Standard Library List
+ |-- api.es6         The STDLIB API
+ |
  |-- ns/             Namespaces
  |    |- <name>/       The implementations
  |    |- <name>.es6    Compiles the namespace's properties/methods
@@ -21,4 +24,14 @@ stdlib/
           |- static.es6   The static properties
 ```
 
-`<name>` would be replaced with the name of that specific item.
+`<name>` would be replaced with the name of that specific item. 
+
+---
+
+If you which to create a new namespace, or a global class. Create a `<name>.es6` file in `ns/` and a folder in the same directory. `<name>.es6` will be where your class/namespace is defined. Individual method implementations can go in the folder you created. For example, if I was creating a package named "Geometry" my files/folders would look like:
+
+```
+stdlib/ns/
+ |-- geometry.es6
+ |-- geometry/
+```
