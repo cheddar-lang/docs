@@ -5,6 +5,7 @@ The number class for Cheddar
 #### Arguments:
  - Base
  - Zero shift (zeros to append _before_ base change)
+ - Literal value (string or number)
 
 #### Usage:
 `0b101`, with api:
