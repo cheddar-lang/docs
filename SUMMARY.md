@@ -21,5 +21,5 @@
    * [Structure](structure.md)
    * [Primitive Objects](storage.md)
        * [Scope](scope.md)
-       * Class
+       * [Class](class.md)
 
