@@ -17,7 +17,7 @@
        * [While Loops](while_loops.md)
 * [Scopes & Classes](scopes_&_classes.md)
    * [Scoping](scoping.md)
-* [API](api.md)
+* [Developing](api.md)
    * [Structure](structure.md)
    * [Primitive Objects](storage.md)
        * [Scope](scope.md)
