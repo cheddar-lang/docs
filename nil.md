@@ -6,7 +6,7 @@ The nil class for Cheddar
 none
 
 #### Usage:
-`il`, with api:
+`nil`, with api:
 ```js
 new cheddar.nil
 ```
