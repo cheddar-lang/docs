@@ -7,4 +7,4 @@ export default function(cheddar) {
 }
 ```
 
-For more information, reference the [Getting Started](./
+For more information, reference the [Getting Started](./using_the_api
