@@ -9,7 +9,7 @@ The boolean class for Cheddar
 `true`, with api:
 ```js
 cheddar.init(
-    cheddar.string,
+    cheddar.bool,
     "foo"
 )
 ```
