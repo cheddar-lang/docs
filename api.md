@@ -1,3 +1,3 @@
-# Standard Library API
+# Developing
 
-Standard Library development was designed to be as easy and quick to make as possible. Unfortunetly, the workings can be confusing to someone not familiar with how cheddar works. This section will cover how the API works, and how to develop for it
+Developing for Cheddar development was designed to be as easy and quick to make as possible. Unfortunetly, the workings can be confusing to someone not familiar with how cheddar works. This section will cover how Cheddar works, and how to develop for it. If you have _any_ questions at all, please do not hesitate to ask at [Slack](http://cheddarlang.slack.com) or [Gitter](https://gitter.im/cheddar-lang/Cheddar).
