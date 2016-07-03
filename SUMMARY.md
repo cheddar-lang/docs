@@ -25,4 +25,5 @@
        * [Variable](variable.md)
        * [Namespace](namespace.md)
    * [Getting Started](using_the_api.md)
+   * API
 
