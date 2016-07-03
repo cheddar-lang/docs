@@ -7,8 +7,8 @@ The string class for Cheddar
  - A string
 
 #### Usage:
-```
-// "foo":
+`"foo"`, with api:
+```js
 cheddar.init(
     cheddar.string,
     "foo"
