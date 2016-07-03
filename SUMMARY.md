@@ -32,5 +32,5 @@
            * [array](array.md)
            * [bool](bool.md)
            * [func](func.md)
-           * nil
+           * [nil](nil.md)
 
