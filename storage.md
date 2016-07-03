@@ -7,50 +7,7 @@ In order to understand _how_ to create classes and namespaces. You'll need to un
  - What a Variable is
  - What a Namespace is
 
-### What is a Scope?
-A scope is the most basic interpretation class. You can think of it as a glorified hashmap which can inherit. It's structure is:
-
-```
-             Scope
-               |
-  +------------+------------+
-  |            |            |
-scope     inheritance   interface
-             chain          |
-                        +---+---+
-                       get set has
-```
-
-What is each part?:
-
- - `scope`: a hashmap. The **key** is the variable name, the **value** is the value of the variable (this is usually a `CheddarVariable`, described later).
- - `inheritance chain`: this is either **another Scope** class, or **`null`**. If this exists, its `scope` will also be navigated, acting as inheritance. This is so the class being inherited from is modified itself, rather than a copy of it.
- - `interface`: this provides a **very raw interface** for `get`ting a variable, `set`ting a variable, or checking if it `has` a variable. These can be overwritten, but these methods are **not to be confused with** getters and setters.
-
-All together this class can implement scopes. Here's an (psuedo-code) example of what is called when (the path the program takes is highlighted with `+`):
-
-```js
-a = 1;     + interface/set(a, 1)
-           - if inheritance chain/has(a)
-           -    inheritance chain/set(a, 1)
-           + else
-           +    scope/set(a, 1)
-
-{
-    a = 1  + interface/set(a, 1)
-           + if inheritance chain/has(a)
-           +    inheritance chain/set(a, 1)
-           - else
-           -    scope/set(a, 1)
-}
-
-print a;   + interface/get(a)
-           - if inheritance chain/has(a)
-           -    inheritance chain/get(a)
-           + else
-           +    scope/get(a, 1)
-
-```
+These will be covered in this section
 
 ### What is a Class?
 You may know what a class is, a "blueprint" for which an object is to be constructed from, but internally they are very simple (the source code contains detailed information of their implementation, [the class implementation](https://github.com/cheddar-lang/Cheddar/blob/master/src/interpreter/core/env/class.es6#L1) may provide additional details). A class has 3 main parts:
@@ -86,5 +43,13 @@ A.whatIsSelf();   // < Instance of "MyClass" >
 as you can see, `whatIsSelf` is passed its scope (`A`) by the evaluator, but the scope is not directly attached to `whatIsSelf`.
 
 ### What is a Variable?
+A variable is a simple wrapper for a value to be placed in a scope. The variable class specified a couple properties, including:
+
+ - Whether the variable is read-only
+ - Whether the variable is static-typed.
+ - Whether a getter/setter should be used, rather than the value
+
+In Cheddar, all scope values are `CheddarVariable`s but this rule is not enforced. If a variable is not wrapped as a CheddarVariable, an uncaught error be occur.
 
 ### What is a Namespace?
+
