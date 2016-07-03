@@ -4,4 +4,6 @@ The API is very simple to use and get started with. Depending on what you'd like
 
 ### Creating a namespace/class
 
+Before getting started, make sure you've followed the instructions specified in the [structure](./structure.md)
+
 If you wish to create a global namespace or class. Locate `stdlib.es6` in the `stdlib/` directory. From there under the 
