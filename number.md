@@ -4,13 +4,21 @@ The number class for Cheddar
 
 ## Usage
 #### Arguments:
- - A string
+ - Base
+ - Zero shift (zeros to append _before_ base change)
 
 #### Usage:
 ```
-// "foo":
+// 0b101:
 cheddar.init(
-    cheddar.string,
-    "foo"
+    cheddar.number,
+    2, 101
+)
+```
+```
+// 0b101:
+cheddar.init(
+    cheddar.number,
+    2, 101
 )
 ```
