@@ -7,4 +7,29 @@ export default function(cheddar) {
 }
 ```
 
-For more information, reference the [Getting Started](./gs.md) section.
+For more information, reference the [Getting Started](./gs.md) article.
+
+## API Contents
+
+#### Primitives
+ - `string`
+ - `number`
+ - `array`
+ - `bool`
+ - `func`
+ - `nil`
+
+#### Classes
+ - `variable`
+ - `class`
+ - `scope`
+
+#### Symbols
+ - `error`
+
+#### Helper Functions
+ - `init`
+ - `make`
+ - `var`
+ - `prop`
+ - `namespace`
