@@ -26,4 +26,5 @@
        * [Namespace](namespace.md)
    * [Getting Started](gs.md)
    * [API](stdlibapi.md)
+       * Primitives
 
