@@ -18,4 +18,13 @@ export default function(cheddar) {
         return <implementation>;
 }
 ```
-`<implementation>` is to be replaced with your implementation. The `cheddar` variable, introduced by the function, is the API. `<implementation>` should not be wrapped as a variable. The API and it's details are described in the following sections.
+`<implementation>` is to be replaced with your implementation. The `cheddar` variable, introduced by the function, is the API. `<implementation>` should not be wrapped as a variable. The API and it's details are described in the following sections. 
+
+#### Adding items to your Namespace
+If you're creating a namespace. Set `ns/<name>.es6` to:
+```js
+export default function(cheddar) {
+     return cheddar.namespace([
+     ]);
+}
+```
