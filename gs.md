@@ -24,7 +24,15 @@ export default function(cheddar) {
 If you're creating a namespace. Set `ns/<name>.es6` to:
 ```js
 export default function(cheddar) {
+     return cheddar.namespace(<data>);
+}
+```
+where `<data>` is a 2D array representing the namespace's items. The most common format of a namespace looks like:
+
+```js
+export default function(cheddar) {
      return cheddar.namespace([
+         ["<item>", cheddar.from(require("./<name>/<item>"))
      ]);
 }
 ```
