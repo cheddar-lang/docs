@@ -9,6 +9,7 @@ A scope is the most basic interpretation class. You can think of it as a glorifi
 scope     inheritance   interface
              chain          |
                         +---+---+
+                        |   |   |
                        get set has
 ```
 
