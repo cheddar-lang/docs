@@ -8,6 +8,3 @@ In order to understand _how_ to create classes and namespaces. You'll need to un
  - What a Namespace is
 
 These will be covered in this section
-
-### What is a Namespace?
-
