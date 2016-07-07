@@ -33,7 +33,7 @@ if 1 == 1 {
 Additionally, an arbitrary amount of `else if` blocks can be supplied:
 
 ```go
-var num := Math.rand(3);
+var num = Math.rand(3);
 
 if num == 1 {
     print "Random number was 1"
