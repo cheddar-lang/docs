@@ -9,8 +9,7 @@ If you wish to create a global namespace or class, make sure you've followed the
  1. Locate `stdlib.es6` in the `stdlib/` directory.
  2. Locate the text `/** Global Libraries **/`. Directly underneath this, create a line in the following format:
 ```js
-import LIB<name> from './ns/<name>';
-STDLIB.Item("<name>", LIB<name>);
+STDLIB.Item("<name>");
 ```
  3. Now in `ns/<name>.es6`. Set the contents to the template:
 ```js
