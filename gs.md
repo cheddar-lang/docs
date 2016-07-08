@@ -2,7 +2,7 @@
 
 The API is very simple to use and get started with. Depending on what you'd like to make, you're going to need to do different things. The Cheddar source code is located in the `src/` directory.
 
-### Creating a namespace/class
+## Creating a namespace/class
 
 If you wish to create a global namespace or class, make sure you've followed the instructions specified in the [Structure](./structure.md) article. `<name>` represents the name of your library.
 
@@ -42,6 +42,7 @@ To create a class. You can use the following format:
 ```js
 export default function(cheddar) {
      return class <name> extends cheddar.class {
+         // Your implementation
      }
 }
 ```
