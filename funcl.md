@@ -40,4 +40,62 @@ Lambdas in Cheddar have **implicit return**. The last statement's result will be
 > }
 > ```
 
----
+If you want nothing to be returned, it is best to have the function return `nil`.
+
+## Syntax
+Syntax for lambdas shoud be familiar to lambdas in other C-based languages. Cheddar's lambdas however have some more features:
+
+```js
+-> Number::IO.prompt('Number? ')
+arg1 -> arg1 * 2
+(arg1, arg2) -> arg1 + arg2
+arg1 -> {
+    var a = arg1 / 2
+    [a * 3, a * 4]
+}
+```
+
+### Formal Syntax
+
+The above roughly covers lambda usage. The formal syntax is along the lines of:
+
+```c
+[ arguments ] "->" ( "{" code "}" | expression )
+```
+
+The syntax can be derived as:
+
+$$
+\begin{align}
+F &\rightarrow \alpha \lambda \beta \\
+\alpha &\rightarrow \text{(}V\text{)} \\
+\alpha &\rightarrow v \\
+\alpha &\rightarrow \epsilon \\
+\beta &\rightarrow \text{\{} \Delta \text{\}} \\
+\beta &\rightarrow \delta \\
+V &\rightarrow V\text{,} v \\
+V &\rightarrow v \\
+V &\rightarrow \epsilon
+\end{align}
+\\
+~\\
+\Lambda = \left(\left\{F,\alpha\right\}, \left\{\lambda,v,\delta,\Delta\right\}, P, F\right)
+$$
+
+Where $$\delta$$ represents an expression, $$\Delta$$ represents a code block, $$\lambda$$ represents `->`, and $$v$$ represents a specific argument (descriped later)
+
+### Explanation
+The lambda syntax is in the form: `<arguments> -> <code>`.
+
+**`<arguments>`** is the arguments to recieve from the lambda. This is either a single argument (described later), an array of arguments delimited by `(` and `)`, or nothing.
+
+**`<code>`** is either an expression, or a code block.
+
+## Argument Syntax
+Lambda arguments are powerful and define what variables are passed to it, and how it is enforced. 
+
+**An argument is a variable** which is passed to the lambda from it's call. An argument can be any variable name. Which is described in the "Variables" chapter.
+
+**Type annotations** on a variable enforce what type that variable must be. You can simply prepend: `<type>:` to the argument to add a type annotation. Without one, any type is accepted. Free whitespace is allowed around the `:`. An example is `String: arg`.
+
+**Optional arguments** allow variables to not be passed. Usually 
