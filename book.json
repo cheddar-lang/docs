@@ -2,7 +2,8 @@
     "plugins": [
         "callouts",
         "katex",
-        "anchors"
+        "anchors",
+        "richquotes"
     ],
     "pluginsConfig": {}
 }
