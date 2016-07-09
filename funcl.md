@@ -66,6 +66,7 @@ The above roughly covers lambda usage. The formal syntax is along the lines of:
 The syntax can be derived as:
 
 $$
+\begin{matrix}
 \begin{aligned}
 F &\rightarrow \alpha \lambda \beta \\
 \alpha &\rightarrow \text{(}V\text{)} \\
@@ -79,6 +80,7 @@ V &\rightarrow \epsilon
 \end{aligned}
 \\~\\
 \Lambda = \left(\left\{F,\alpha\right\}, \left\{\lambda,v,\delta,\Delta\right\}, P, F\right)
+\end{matrix}
 $$
 
 Where $$\delta$$ represents an expression, $$\Delta$$ represents a code block, $$\lambda$$ represents `->`, and $$v$$ represents a specific argument (descriped later)
