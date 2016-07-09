@@ -1,6 +1,5 @@
 {
     "plugins": [
-        "callouts",
         "katex",
         "anchors",
         "richquotes"
