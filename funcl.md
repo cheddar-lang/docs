@@ -98,4 +98,17 @@ Lambda arguments are powerful and define what variables are passed to it, and ho
 
 **Type annotations** on a variable enforce what type that variable must be. You can simply prepend: `<type>:` to the argument to add a type annotation. Without one, any type is accepted. Free whitespace is allowed around the `:`. An example is `String: arg`.
 
-**Optional arguments** allow variables to not be passed. Usually 
+**Optional arguments** allow variables to not be passed. Usually if a value is not passed for a function's argument, an error is thrown. Appending a `?` to the variable makes it **optional**. If a value is not supplied for the argument, it will be set to `nil`.
+
+A **default value** is what a variable will be set to if no value is supplied. Default values _cannot_ be used with optional arguments. To specify a default argument, append `= <expression>` where `<expression>` is an expression which evaluates to what the default value should be.
+
+### Examples
+Some examples of arguments:
+
+```elixir
+arg                  Normal argument
+arg?                 Optional argument
+Bool: arg            Argument that must be a boolean
+Bool: arg?           Optional argument that must be boolean if supplied
+Bool: arg = false    Argument that must be a boolean that defaults to false
+```
