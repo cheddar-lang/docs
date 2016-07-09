@@ -5,4 +5,5 @@ You can use lambdas for all sorts of things, usually they are used for quick, th
 
 Lambdas in Cheddar have **implicit return**. The last statement's result will be implicitly returned. _Always_. 
 
-> #### Note: 
+> #### Note::Best Practice
+> 
