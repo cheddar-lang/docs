@@ -71,7 +71,7 @@ F &\rightarrow \alpha \lambda \beta \\
 \alpha &\rightarrow \text{(}V\text{)} \\
 \alpha &\rightarrow v \\
 \alpha &\rightarrow \epsilon \\
-\beta &\rightarrow \text{\{} \Delta \text{\}} \\
+\beta &\rightarrow \left\{ \Delta \right\} \\
 \beta &\rightarrow \delta \\
 V &\rightarrow V\text{,} v \\
 V &\rightarrow v \\
