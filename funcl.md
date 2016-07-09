@@ -66,7 +66,7 @@ The above roughly covers lambda usage. The formal syntax is along the lines of:
 The syntax can be derived as:
 
 $$
-\begin{align}
+\begin{aligned}
 F &\rightarrow \alpha \lambda \beta \\
 \alpha &\rightarrow \text{(}V\text{)} \\
 \alpha &\rightarrow v \\
@@ -76,9 +76,8 @@ F &\rightarrow \alpha \lambda \beta \\
 V &\rightarrow V\text{,} v \\
 V &\rightarrow v \\
 V &\rightarrow \epsilon
-\end{align}
-\\
-~\\
+\end{aligned}
+\\~\\
 \Lambda = \left(\left\{F,\alpha\right\}, \left\{\lambda,v,\delta,\Delta\right\}, P, F\right)
 $$
 
@@ -102,7 +101,7 @@ Lambda arguments are powerful and define what variables are passed to it, and ho
 
 A **default value** is what a variable will be set to if no value is supplied. Default values _cannot_ be used with optional arguments. To specify a default argument, append `= <expression>` where `<expression>` is an expression which evaluates to what the default value should be.
 
-### Examples
+### Argument Examples
 Some examples of arguments:
 
 ```elixir
@@ -111,4 +110,10 @@ arg?                 Optional argument
 Bool: arg            Argument that must be a boolean
 Bool: arg?           Optional argument that must be boolean if supplied
 Bool: arg = false    Argument that must be a boolean that defaults to false
+```
+
+## Lambda Examples
+
+```js
+-> Number::IO.prompt("Number? ")    // Anonymous function prompting from user
 ```
