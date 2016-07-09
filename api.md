@@ -13,6 +13,14 @@ $ git clone -b develop http://github.com/cheddar-lang/Cheddar.git
 ```
 now in that directory, you're going to see a `src/` folder. That is where the source code is. 
 
+Before developing, make sure you run:
+
+```
+$ npm install
+```
+
+to install the required dependencies
+
 ## Running
 To run it, first run `make build`:
 
