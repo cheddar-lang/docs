@@ -1,25 +1,8 @@
-# Function
+# Lambda
+**Lambdas are anonymous functions** (functions without a name). "Without a name" just means they are declared without a name, you can still give them a name.
 
-The syntax for functions is current under design and is not finalized. The current proposal is:
+You can use lambdas for all sorts of things, usually they are used for quick, throw-away functions. This includes things such as arguments to `#map` and `#each` functions. Lambdas also play in important role in functional paradigm.
 
-```swift
-func MyFunction(String: str2, arg) {
-    return Number::str2 + arg
-}
-```
+Lambdas in Cheddar have **implicit return**. The last statement's result will be implicitly returned. _Always_. 
 
-This defined a function `MyFunction` which takes to arguments `str2` and `arg`. `str2` has had it's type explicitly set to `String` and will throw an error if not. It will return the string, cast to a number, added to `arg2`.
-
----
-
-The proposed lambda syntax is:
-
-```js
--> (arg1, arg2) arg1 + arg2;
--> (arg1, arg2) {
-    arg1 + arg2
-}
-add -> (arg1, arg2) arg1 + arg2;
-```
-
-All lambdas have implicit output. The last case assigns the lambda to variable `add`.
+> #### Note: 
