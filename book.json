@@ -1,6 +1,7 @@
 {
     "plugins": [
-        "callouts"
+        "callouts",
+        "katex"
     ],
     "pluginsConfig": {}
 }
