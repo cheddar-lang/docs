@@ -6,6 +6,7 @@ You can use lambdas for all sorts of things, usually they are used for quick, th
 Lambdas in Cheddar have **implicit return**. The last statement's result will be implicitly returned. _Always_. 
 
 > #### Note::Best Practice
+>
 > In lambdas, what is being implicitly returned is easy to tell most of the time. 
 > However this is not the case for many statements such as loops and ifs.
 >
