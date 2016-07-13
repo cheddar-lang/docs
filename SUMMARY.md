@@ -22,7 +22,7 @@
        * [Class](Developing/Primitive Objects/class.md)
        * [Variable](Developing/Primitive Objects/variable.md)
        * [Namespace](Developing/Primitive Objects/namespace.md)
-   * [Getting Started](gs.md)
+   * [Getting Started](Developing/Getting Started.md)
    * [API](stdlibapi.md)
        * [Primitives](primitives.md)
            * [string](string.md)
