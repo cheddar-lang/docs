@@ -21,7 +21,7 @@
        * [Scope](Developing/Primitive Objects/scope.md)
        * [Class](Developing/Primitive Objects/class.md)
        * [Variable](Developing/Primitive Objects/variable.md)
-       * [Namespace](namespace.md)
+       * [Namespace](Developing/Primitive Objects/namespace.md)
    * [Getting Started](gs.md)
    * [API](stdlibapi.md)
        * [Primitives](primitives.md)
