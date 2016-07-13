@@ -28,7 +28,7 @@
            * [string](Developing/API/Primitives/string.md)
            * [number](Developing/API/Primitives/number.md)
            * [array](Developing/API/Primitives/array.md)
-           * [bool](bool.md)
+           * [bool](Developing/API/Primitives/bool.md)
            * [func](func.md)
            * [nil](nil.md)
 
