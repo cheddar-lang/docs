@@ -8,7 +8,7 @@
    * [Number](Literals/Number.md)
    * [Array](Literals/Array.md)
    * [Boolean](Literals/Bool.md)
-   * [Function](funcl.md)
+   * [Lambda](funcl.md)
 * [Variables](variables.md)
 * [Control Flow](Control Flow/README.md)
    * [Conditional](Control Flow/Conditional.md)
