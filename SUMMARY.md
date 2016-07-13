@@ -20,7 +20,7 @@
    * [Primitive Objects](Developing/Primitive Objects/README.md)
        * [Scope](Developing/Primitive Objects/scope.md)
        * [Class](Developing/Primitive Objects/class.md)
-       * [Variable](variable.md)
+       * [Variable](Developing/Primitive Objects/variable.md)
        * [Namespace](namespace.md)
    * [Getting Started](gs.md)
    * [API](stdlibapi.md)
