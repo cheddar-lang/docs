@@ -24,7 +24,7 @@
        * [Namespace](Developing/Primitive Objects/namespace.md)
    * [Getting Started](Developing/Getting Started.md)
    * [API](Developing/API/README.md)
-       * [Primitives](primitives.md)
+       * [Primitives](Developing/API/Primitives/README.md)
            * [string](string.md)
            * [number](number.md)
            * [array](array.md)
