@@ -17,7 +17,7 @@
        * [While Loops](Control Flow/Loops/while_loops.md)
 * [Developing](Developing/README.md)
    * [Structure](Developing/structure.md)
-   * [Primitive Objects](storage.md)
+   * [Primitive Objects](Developing/Primitive Objects/README.md)
        * [Scope](scope.md)
        * [Class](class.md)
        * [Variable](variable.md)
