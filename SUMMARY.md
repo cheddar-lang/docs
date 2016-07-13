@@ -14,7 +14,7 @@
    * [Conditional](Control Flow/Conditional.md)
    * [Loops](Control Flow/Loops/README.md)
        * [For Loops](Control Flow/Loops/For Loops.md)
-       * [While Loops](Control Flow/Loops/while_loops.md)
+       * [While Loops](Control Flow/Loops/While Loops.md)
 * [Developing](Developing/README.md)
    * [Structure](Developing/Structure.md)
    * [Primitive Objects](Developing/Primitive Objects/README.md)
