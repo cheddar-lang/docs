@@ -2,7 +2,7 @@
 
 The nil class for Cheddar
 
-#### Arguments:
+#### Arguments
 none
 
 #### Usage:
