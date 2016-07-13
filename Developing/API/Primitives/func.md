@@ -3,23 +3,26 @@
 The function class for Cheddar
 
 #### Arguments:
- - argument matrix.  
-   a 2d array in the form of:
-   ```
-   [
-       ["arg_name", { <options> }],
-       ...
-   ]
-   ```
-   Where `<options>` is an object specifing any of
-   - **`Type` (default: any)** the argument should be this type
-   - **`Default`(default: false)** if non-falsy and the associated argument was not passed, the argument will be set to this
-   - **`Splat` (default: false)** if true, this, and the following arguments will be combined and returned as a Cheddar array
-   - **`Optional` (default: false)** if true, the argument is optional and will _not_ throw an error if not provided.
- - a function, the implementation  
-   this is a function called, which returns the output.
-   - **first argument** passed is the **function's scope** as a CheddarScope
-   - **second argument** is a function which returns a variable's value, given a variable name.
+| name | type | description |
+| ---- | ---- | ----------- |
+| `arguments` | 2D array | (described below) this matrix described the arguments for the function. In the form of `[ ["arg_name", { <options> }] ]`
+| `body` | function | (described below) the function body
+
+###### arguments matrix:
+
+| name | type | default | description |
+| ---- | ---- | ------- | ----------- |
+| `Type` | `cheddar.class` | n/a | If provided, the argument is required to be of the given type
+| `Default` | `cheddar.class{}` | n/a | If provided and the argument is not provided, it will be set to this rather than throwing an error.
+| `Splat` | bool | `false` | If provided, this and the following arguments will be combined into a `cheddar.array` object.
+| `Optional` | bool | `false` | If true, the argument will be `nil` if not provided |
+
+###### Function Body
+
+| argument | description |
+| -------- | ----------- |
+| first    | This is the **function's scope** as a `cheddar.scope`.
+| second   | This is a function which returns a variable's value, given a variable name. |
 
 #### Usage:
 `-> (a, b = 0) a + b`, with api:
