@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Syntax](syntax.md)
 * [Literals](literals.md)
-   * [Comment](commentl.md)
+   * [Comment](Literals/comment.md)
    * [String](strl.md)
    * [Number](numl.md)
    * [Array](arl.md)
