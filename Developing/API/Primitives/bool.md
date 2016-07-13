@@ -2,8 +2,10 @@
 
 The boolean class for Cheddar
 
-#### Arguments:
- - the value, can be a cheddar class. (will be cast to boolean if applicable)
+#### Arguments
+| name | type | description |
+| ---- | ---- | ----------- |
+| `value` | any | the value, can be a cheddar class. (will be cast to boolean if applicable)
 
 #### Usage:
 `true`, with api:
