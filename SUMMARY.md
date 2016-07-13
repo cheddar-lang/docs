@@ -11,7 +11,7 @@
    * [Function](funcl.md)
 * [Variables](variables.md)
 * [Control Flow](Control Flow/README.md)
-   * [Conditional](Control Flow/conditional.md)
+   * [Conditional](Control Flow/Conditional.md)
    * [Loops](Control Flow/Loops/README.md)
        * [For Loops](Control Flow/Loops/for_loops.md)
        * [While Loops](Control Flow/Loops/while_loops.md)
