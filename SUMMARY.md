@@ -4,7 +4,7 @@
 * [Syntax](syntax.md)
 * [Literals](Literals/README.md)
    * [Comment](Literals/Comment.md)
-   * [String](strl.md)
+   * [String](Literals/String.md)
    * [Number](numl.md)
    * [Array](arl.md)
    * [Boolean](booll.md)
