@@ -2,10 +2,12 @@
 
 The number class for Cheddar
 
-#### Arguments:
- - Base
- - Zero shift (zeros to append _before_ base change)
- - Literal value (string or number)
+#### Arguments
+| name | type | description |
+| ---- | ---- | ----------- |
+| base | number | base to translate the given to |
+| shift | number | number of zeros to append to the value before base change |
+| value | number or string | The literal value of the number |
 
 #### Usage:
 `0b101`, with api:
