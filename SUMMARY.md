@@ -26,7 +26,7 @@
    * [API](Developing/API/README.md)
        * [Primitives](Developing/API/Primitives/README.md)
            * [string](Developing/API/Primitives/string.md)
-           * [number](number.md)
+           * [number](Developing/API/Primitives/number.md)
            * [array](array.md)
            * [bool](bool.md)
            * [func](func.md)
