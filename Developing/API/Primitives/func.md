@@ -17,7 +17,7 @@ The function class for Cheddar
 | `Splat` | bool | `false` | If provided, this and the following arguments will be combined into a `cheddar.array` object.
 | `Optional` | bool | `false` | If true, the argument will be `nil` if not provided |
 
-###### Function Body
+###### function body:
 
 | argument | description |
 | -------- | ----------- |
