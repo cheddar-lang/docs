@@ -6,7 +6,7 @@
    * [Comment](Literals/Comment.md)
    * [String](Literals/String.md)
    * [Number](Literals/Number.md)
-   * [Array](arl.md)
+   * [Array](Literals/Array.md)
    * [Boolean](booll.md)
    * [Function](funcl.md)
 * [Variables](variables.md)
