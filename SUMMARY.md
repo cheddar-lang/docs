@@ -7,7 +7,7 @@
    * [String](Literals/String.md)
    * [Number](Literals/Number.md)
    * [Array](Literals/Array.md)
-   * [Boolean](booll.md)
+   * [Boolean](Literals/Bool.md)
    * [Function](funcl.md)
 * [Variables](variables.md)
 * [Control Flow](Control Flow/README.md)
