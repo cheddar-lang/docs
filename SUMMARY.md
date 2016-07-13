@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Syntax](syntax.md)
-* [Literals](literals.md)
+* [Literals](Literals/README.md)
    * [Comment](Literals/comment.md)
    * [String](strl.md)
    * [Number](numl.md)
