@@ -25,7 +25,7 @@
    * [Getting Started](Developing/Getting Started.md)
    * [API](Developing/API/README.md)
        * [Primitives](Developing/API/Primitives/README.md)
-           * [string](string.md)
+           * [string](Developing/API/Primitives/string.md)
            * [number](number.md)
            * [array](array.md)
            * [bool](bool.md)
