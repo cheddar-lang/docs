@@ -13,7 +13,7 @@
 * [Control Flow](Control Flow/README.md)
    * [Conditional](Control Flow/conditional.md)
    * [Loops](Control Flow/Loops/README.md)
-       * [For Loops](for_loops.md)
+       * [For Loops](Control Flow/Loops/for_loops.md)
        * [While Loops](while_loops.md)
 * [Scopes & Classes](scopes_&_classes.md)
    * [Scoping](scoping.md)
