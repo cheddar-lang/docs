@@ -18,7 +18,7 @@
 * [Developing](Developing/README.md)
    * [Structure](Developing/structure.md)
    * [Primitive Objects](Developing/Primitive Objects/README.md)
-       * [Scope](scope.md)
+       * [Scope](Developing/Primitive Objects/scope.md)
        * [Class](class.md)
        * [Variable](variable.md)
        * [Namespace](namespace.md)
