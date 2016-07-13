@@ -2,9 +2,12 @@
 
 The array class for Cheddar
 
-#### Arguments:
- - An item
- - ...
+#### Arguments
+
+| name | type | description |
+| ---- | ---- | ----------- |
+| `item` | any | the array item |
+| ...  | 〃 | 〃 |
 
 #### Usage:
 `[]`, with api:
