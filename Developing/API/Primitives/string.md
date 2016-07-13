@@ -3,7 +3,9 @@
 The string class for Cheddar
 
 #### Arguments:
- - A string
+| name | type | description |
+| ---- | ---- | ----------- |
+| `value` | string | The literal value |
 
 #### Usage:
 `"foo"`, with api:
