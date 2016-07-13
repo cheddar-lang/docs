@@ -10,7 +10,7 @@
    * [Boolean](booll.md)
    * [Function](funcl.md)
 * [Variables](variables.md)
-* [Control Flow](control_flow.md)
+* [Control Flow](Control Flow/README.md)
    * [Conditional](conditional.md)
    * [Loops](loops.md)
        * [For Loops](for_loops.md)
