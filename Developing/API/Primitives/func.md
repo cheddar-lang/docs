@@ -46,3 +46,22 @@ new cheddar.func(
   }
 )
 ```
+
+#### Internal Usage
+
+##### Execution:
+
+```js
+func.exec([
+    arg1, arg2, ...
+], scope)
+```
+
+`scope` will be set to `self` variable, if none, set to `null`.
+
+##### Arguments:
+
+```js
+func.args
+```
+the 2D matrix representing the arguments the function is requesting.
