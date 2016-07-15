@@ -6,7 +6,7 @@ The array class for Cheddar
 
 | name | type | description |
 | ---- | ---- | ----------- |
-| `item` | any | the array item. **must be cheddar object** |
+| `item` | cheddar object | the array item. |
 | ...  | 〃 | 〃 |
 
 #### Usage:
