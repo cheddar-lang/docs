@@ -18,6 +18,7 @@
     * [Remainder](Arithmetic/Remainder.md)
     * [Negation](Arithmetic/Negation.md)
     * [Sign](Arithmetic/Sign.md)
+    * [Root](Arithmetic/Root.md)
     * [Bitwise AND](Arithmetic/Bitwise AND.md)
     * [Bitwise OR](Arithmetic/Bitwise OR.md)
     * [Bitwise XOR](Arithmetic/Bitwise XOR.md)
