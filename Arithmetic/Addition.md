@@ -1,6 +1,6 @@
 # Addition (`+`)
 
-## Syntac
+## Syntax
 ```swift
 x + y
 ```
