@@ -2,7 +2,14 @@
     "plugins": [
         "katex",
         "anchors",
-        "richquotes"
+        "richquotes",
+        "collapsible-chapters",
+        "edit-link"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "edit-link": {
+            "base": "https://github.com/cheddar-lang/docs/edit/master/",
+            "label": "Edit Documentation"
+        }
+    }
 }
