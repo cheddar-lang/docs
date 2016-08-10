@@ -15,4 +15,4 @@ The remainder operator returns the remainder left over after division of the two
 17 % 16  // 1
 18 % 16  // 2
 -16 % 16 // 0
-``
+```
