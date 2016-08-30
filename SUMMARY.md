@@ -22,8 +22,12 @@
     * [Bitwise AND](Mathematics/Bitwise AND.md)
     * [Bitwise OR](Mathematics/Bitwise OR.md)
     * [Bitwise XOR](Mathematics/Bitwise XOR.md)
+    * [Bitwise NOT](Mathematics/Bitwise NOT.md)
     * [Bitwise Left Shift](Mathematics/Bitwise Left Shift.md)
     * [Bitwise Right Shift](Mathematics/Bitwise Right Shift.md)
+* Functional Operations
+    * [Functional Bonding](Functional Operations/Functional Bonding.md)
+    * [Functional Composition](Functional Operations/Functional Composition.md)
 * [Variables](variables.md)
 * [Control Flow](Control Flow/README.md)
    * [Conditional](Control Flow/Conditional.md)
