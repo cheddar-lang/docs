@@ -6,13 +6,18 @@ A variable is a named representation of some section of memory. Variables are us
 var my_variable = 123
 var my_variable: Number = 123
 
+let my_variable = 123
+let my_variable: Number = 123
+
 const my_constant = 123
 const my_constant: Number = 123
 ```
 
+`let` is simply an alias for `var`, they are exactly the same.
+
 ## Strong v Weak
 
-Many, now considered, "low-level" programming languages such as C are **"strongly" typed**. This means, you cannot change the type of a variable once it has been declared. This type is passed with the variable's deceleration. For example the following is invalid:
+Many, now considered, "low-level" programming languages such as C are **"strongly" typed**. This means, you cannot change the type of a variable once it has been declared. This type is passed with the variable's decleration. For example the following is invalid:
 
 ```c
 int foo = 123; // Declares `foo` as an integer;
