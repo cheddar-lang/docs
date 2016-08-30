@@ -1,10 +1,17 @@
 {
+    "links": {
+        "sidebar": {
+            "Cheddar": "http://cheddar.vihan.org"
+        }
+    },
+
     "plugins": [
         "katex",
         "anchors",
-        "richquotes",
+        "callouts",
         "collapsible-chapters"
     ],
+
     "pluginsConfig": {
     }
 }

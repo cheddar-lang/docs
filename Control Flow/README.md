@@ -4,7 +4,7 @@ In order to perform any sort of logic, control flow statements must exist to  fo
 
 ---
 
-> **Note** Best Practice
+> #### Note::Best Practice
 > 
 > In Cheddar, parenthesis are optional around most statements. This is to suit a wider variety of programmings styles.
 > For this reason, when using more complex statements, it is generally regarded as better practice to put parenthesis around your condition
