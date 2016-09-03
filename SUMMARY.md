@@ -25,7 +25,7 @@
     * [Bitwise NOT](Mathematics/Bitwise NOT.md)
     * [Bitwise Left Shift](Mathematics/Bitwise Left Shift.md)
     * [Bitwise Right Shift](Mathematics/Bitwise Right Shift.md)
-* Functional Operations
+* [Functional Operations](Functional Operations/README.md)
     * [Functional Bonding](Functional Operations/Functional Bonding.md)
     * [Functional Composition](Functional Operations/Functional Composition.md)
 * [Variables](variables.md)
