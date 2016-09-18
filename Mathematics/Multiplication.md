@@ -1,4 +1,4 @@
-# Multipliecation (`*`)
+# Multiplication (`*`)
 
 ## Syntax
 ```swift
