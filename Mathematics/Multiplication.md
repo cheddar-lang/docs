@@ -1,12 +1,12 @@
-# Subtraction (`-`)
+# Multipliecation (`*`)
 
 ## Syntax
 ```swift
-x - y
+x * y
 ```
 
 ## Explanation
-The subtraction operator returns the product of the two operands as a new number.
+The multiplication operator returns the product of the two operands as a new number.
 
 ## Examples
 
