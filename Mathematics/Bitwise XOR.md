@@ -2,11 +2,11 @@
 
 ## Syntax
 ```swift
-x | y
+x ^ y
 ```
 
 ## Explanation
-Sets each bit to `0` where the corresponding bit in both operands is `0`
+Sets each bit to `0` where the corresponding bit in both operands is different
 
 ## Truth Table
 
