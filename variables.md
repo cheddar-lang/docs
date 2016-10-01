@@ -24,6 +24,12 @@ int foo = 123; // Declares `foo` as an integer;
 foo = "bar";   // Error: cannot make an int a string
 ```
 
+**Note:** This works as well (since version v1.0.0-beta.51)
+```js
+var foo := 123; // Declares `foo` as an integer
+foo = "bar";   // Error: cannot make an int a string
+```
+
 Some other languages such as JavaScript and Python, are **"weakly" typed**, this means you can change the type of a variable after it has been declared:
 
 ```js
