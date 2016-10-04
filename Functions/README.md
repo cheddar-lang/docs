@@ -5,7 +5,7 @@ Cheddar aims to fit both object-oriented and functional paradigms. In order to f
 A "function" is essentially a block of code which may be given input and can produce output. Think back to your math class:
 
 $$
-f(x) = x
+f(x) = \ldots
 $$
 
 Features provided by cheddar include:
@@ -16,4 +16,4 @@ Features provided by cheddar include:
  - Anonymous recursion support
  - and more.
 
-This section will cover in-depth function literals, operators, usage, and general practice.
+his section will cover in-depth function literals, operators, usage, and general practice.
