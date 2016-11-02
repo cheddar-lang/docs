@@ -2,27 +2,15 @@
 
 Cheddar introduces a blend of syntax styles from existing languages. Inspiration is derives from C, Go, and Swift.
 
-An individual "line" or section of code is called a **"statement"**. For example in the following:
+# Default variable names
+This documentation uses generic variables names to generally refer to a variable of a specific type:
 
-```js
-var myvar = IO.prompt()
-myvar = []; myvar.push(12)
-myvar ::= String
-print myvar
-```
+| names | alternate(s) | type |
+| ----- | ------------ | ---- |
+| `a`   | `b`, `c`     | any variable |
+| `o`   | `obj`        | any object |
+| `Foo` | `Bar`, `Baz` | any class  |
+| `n`   | `m`          | a number   |
+| `i`   | `j`, `k`     | iterator variable (number) |
+| `s`   | `t`          | a string   |
 
-In this program, each is an individual statement:
-
-```
-var myvar = IO.prompt()
-myvar = []
-myvar.push(12)
-myvar ::= String
-print MyVar
-```
-
-Each of these statements can be separated using either a newline or a semicolon `;`.
-
----
-
-**Keep in mind**, Cheddar is under development, syntax is subject to change but most probably not drastically.
