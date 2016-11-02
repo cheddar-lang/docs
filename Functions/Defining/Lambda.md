@@ -45,16 +45,6 @@ If you want nothing to be returned, it is best to have the function return `nil`
 ## Syntax
 Syntax for lambdas shoud be familiar to lambdas in other C-based languages. Cheddar's lambdas however have some more features:
 
-```js
--> Number::IO.prompt('Number? ')
-arg1 -> arg1 * 2
-(arg1, arg2) -> arg1 + arg2
-arg1 -> {
-    var a = arg1 / 2
-    [a * 3, a * 4]
-}
-```
-
 ### Formal Syntax
 
 The above roughly covers lambda usage. The formal syntax is along the lines of:
@@ -86,9 +76,11 @@ $$
 Where $$\delta$$ represents an expression, $$\Delta$$ represents a code block, $$\lambda$$ represents `->`, and $$v$$ represents a specific argument (descriped later)
 
 ### Explanation
-The lambda syntax is in the form: `<arguments> -> <code>`.
+The lambda syntax is in the form: `<arguments> [<self>] -> <code>`.
 
 **`<arguments>`** is the arguments to recieve from the lambda. This is either a single argument (described later), an array of arguments delimited by `(` and `)`, or nothing.
+
+**`<self>`** is an optional paramter. If you specify a variable name here. It'll be set to the function itself in it's body. **This variable will be tail call optimized**, so _please_ use this for recursion.
 
 **`<code>`** is either an expression, or a code block.
 
@@ -117,5 +109,16 @@ Bool: arg = false    Argument that must be a boolean that defaults to false
 ## Lambda Examples
 
 ```js
--> Number::IO.prompt("Number? ")    // Anonymous function prompting from user
+-> Number::IO.prompt('Number? ')
+
+arg1 -> arg1 * 2
+
+(arg1, arg2) -> arg1 + arg2
+
+arg1 -> {
+    var a = arg1 / 2
+    [a * 3, a * 4]
+}
+
+n f -> n < 2 ? 1 : f(n - 1) + f(n - 2)
 ```
