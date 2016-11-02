@@ -42,6 +42,16 @@
    * [Loops](Control Flow/Loops/README.md)
        * [For Loops](Control Flow/Loops/For Loops.md)
        * [While Loops](Control Flow/Loops/While Loops.md)
+* Standard Library
+   * String
+       * [Bytes](Standard Library/String/Bytes.md)
+       * [Split](Standard Library/String/Split.md)
+       * [Slice](Standard Library/String/Slice.md)
+       * [Upper](Standard Library/String/Upper.md)
+       * [Lower](Standard Library/String/Lower.md)
+       * [Ord](Standard Library/String/Ord.md)
+       * [Lines](Standard Library/String/Lines.md)
+       * [Count](Standard Library/String/Count.md)
 * [Developing](Developing/README.md)
    * [Structure](Developing/Structure.md)
    * [Primitive Objects](Developing/Primitive Objects/README.md)
