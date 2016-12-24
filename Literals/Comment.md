@@ -2,17 +2,16 @@
 
 Comments are sections of code which are ignored by the interpreter. You may use them to write notes **describing** your code or to aid people reading your code in **understanding** it.
 
-Cheddar has **C-style** comments, you can delimit a comment either with `//`, `#`, or `/* .. */`:
+Cheddar has **C-style** comments, you can delimit a comment either with `//` or `/* .. */`:
 
 Comments can go wherever **whitespace can go**. This means comments do not work within strings.
 
 ---
 
-A single-line comment `//` or `#`, starts at any point in the line and continues until either a new line or the EOF (end of file).
+A single-line comment `//`, starts at any point in the line and continues until either a new line or the EOF (end of file).
 
 ```php
 // Hello, World! This is my comment
-# This is also a comment!
 ```
 
 ---
@@ -54,3 +53,8 @@ did not close this comment.
  
 */
 ```
+> #### Note::Stability
+> 
+> Nested block comments may not work at the moment.
+> If you encounter any problems, please report the given
+> source code on github and it'll (hopefully) be fixed promptly.
